@@ -1,0 +1,32 @@
+{
+  "name": "acorn-static-class-property-initializer",
+  "version": "1.0.0",
+  "description": "Partial support for static class properties in Acorn",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://victor-homyakov@github.com/victor-homyakov/acorn-static-class-property-initializer.git"
+  },
+  "keywords": [
+    "acorn",
+    "static",
+    "class"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victor-homyakov/acorn-static-class-property-initializer/issues"
+  },
+  "homepage": "https://github.com/victor-homyakov/acorn-static-class-property-initializer#readme",
+  "dependencies": {
+    "acorn": "^5.0.3"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1"
+  }
+}
